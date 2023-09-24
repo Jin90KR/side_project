@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Side Project</title>
+        <link rel="stylesheet" href="/index.css">
+        <script src="https://kit.fontawesome.com/9a3333e513.js" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+        <div class="quizstart" id="quiz_start">
+            퀴즈를 시작하려면 아래 버튼을 눌러주세요.<br>
+            <button class="startbtn" id="start_btn">Start</button>
+        </div>
+
+        <div class="quizcontainer hide" id="quiz_container">
+            <div class="quizbox" id="quiz_box">
+                
+                <div class="quizbody">
+                    <div class="question" id="quiz_question">
+                        
+                    </div>
+
+                    <div class="answer" id="quiz_answer">
+                        <button class="firstanswer answerbtn" id="first_answer">Answer1</button>
+                        <button class="secondanswer answerbtn" id="second_answer">Answer2</button>
+                        <button class="thirdanswer answerbtn" id="third_answer">Answer3</button>
+                    </div>
+                </div>
+
+                <div class="timecounter" id="time_counter">
+                    <p class="timenumber" id="time_number">5</p>
+                    <div class="graybar" id="gray_bar">
+                        <div class="greenbar" id="green_bar"></div>
+                    </div>
+                </div>
+
+                <div class="quizindicator" id="quiz_indicator">
+                    <i class="fa-solid fa-circle indicator"></i>
+                    <i class="fa-solid fa-circle indicator"></i>
+                    <i class="fa-solid fa-circle indicator"></i>
+                </div>
+
+                <button class="nextbutton" id="next_button">Next</div>
+            </div>
+            
+        </div>
+
+
+
+
+
+        <script src="/index.js"></script>
+    </body>
+
+</html>

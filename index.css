@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: black; */
+}
+
+.quizstart{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 350px;
+    height: 400px;
+    border: 5px solid black;
+    font-size: 30px;
+    gap: 50px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.startbtn{
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.hide{
+    display: none;
+}
+
+.quizbox{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 600px;
+    height: 400px;
+    border: 10px solid black;
+    padding: 10px;
+}
+
+.quizbody{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 80px;
+    left : 230px;
+    gap: 50px;
+    font-size: 1.5rem;
+}
+
+.question{
+    width: 300px;
+    height: 50px;
+}
+
+.photo{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+.answer{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.answerbtn,
+.btn{
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.answerbtn:hover{
+    background-color:black;
+    color: white;
+}
+
+.timecounter{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    /* border: 1px solid black; */
+    top: 130px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.quizindicator{
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    font-size: 30px;
+    top: 300px;
+    right: 20px;
+}
+
+.graybar{
+    width: 150px;
+    height: 10px;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.greenbar{
+    width: 150px;
+    height: 10px;
+    background-color: green;
+    border-radius: 5px;
+}
+
+.nextbutton{
+    position: relative;
+    width: 200px;
+    height: 40px;
+    top: 330px;
+    right: 100px;
+    display: none;
+   
+}
